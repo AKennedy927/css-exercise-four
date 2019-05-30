@@ -2,3 +2,26 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+h1 {
+  font-size:16px;
+  color:gray;
+  }
+
+.preview-baku {
+  background-image:url(https://github.com/AKennedy927/css-exercise-four/blob/master/images/baku.jpg?raw=true);
+  background-repeat: no-repeat;
+}
+  .preview-london {
+  background-image:url(https://github.com/AKennedy927/css-exercise-four/blob/master/images/london.png?raw=true);
+  background-repeat: no-repeat;
+ }
+
+ .preview-madrid {
+   background-image:url(https://github.com/AKennedy927/css-exercise-four/blob/master/images/madrid.jpg?raw=true);
+   background-repeat: no-repeat;
+ }
+
+ .preview-rome{
+   background-image:url(https://github.com/AKennedy927/css-exercise-four/blob/master/images/rome.jpg?raw=true);
+   background-repeat: no-repeat;
+ }
