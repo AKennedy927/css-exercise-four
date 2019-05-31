@@ -2,40 +2,43 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
 h1 {
-  font-size:16px;
-  color:gray;
+  font-size:22px;
+  color:rgb(46, 46, 46);
+  text-align:center;
+  padding:5px;
+}
+
+h2 {
+  font-size: 18px;
+  color:rgb(46, 46, 46);
   }
 
-.preview-baku {
-  background-image:url(https://github.com/AKennedy927/css-exercise-four/blob/master/images/baku.jpg?raw=true);
-  background-repeat: no-repeat;
+.container {
+  text-align:center;
 }
-  .preview-london {
-  background-image:url(https://github.com/AKennedy927/css-exercise-four/blob/master/images/london.png?raw=true);
-  background-repeat: no-repeat;
- }
 
- .preview-madrid {
-   background-image:url(https://github.com/AKennedy927/css-exercise-four/blob/master/images/madrid.jpg?raw=true);
-   background-repeat: no-repeat;
- }
+img {
+  max-width:100%;
+  display:inline-block;
+}
+  
+div {
+    max-width:100%;
+    display:inline-block;
+  }
 
- .preview-rome{
-   background-image:url(https://github.com/AKennedy927/css-exercise-four/blob/master/images/rome.jpg?raw=true);
-   background-repeat: no-repeat;
- }
+@media (min-width: 575px) {
+  div  {
+    margin:1px;
+    max-width: 48%;
+  }
+}
 
-@media screen and (min-width:575px) {
-   img {
-     margin: 1%;
-     width: 48%;
-   }
- }
-
- @media screen and (min-width:575px) {
-   div {
-     margin:1%;
-     width:48%;
-   }
- }
+  @media (min-width: 991px) {
+    div {
+      margin: 1px;
+      max-width: 24%;
+    }
+  }
