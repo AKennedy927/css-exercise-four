@@ -27,17 +27,29 @@ img {
 div {
     max-width:100%;
     display:inline-block;
+    background-size:contain;
+    height:100%
   }
 
 @media (min-width: 575px) {
   div  {
     margin:1px;
     max-width: 48%;
+    background-size:contain;
+    height:100%
   }
 }
 
   @media (min-width: 991px) {
     div {
+      margin: 1px;
+      max-width: 24%;
+      background-size:contain;
+      height:100%;
+    }
+  }
+
+
       margin: 1px;
       max-width: 24%;
     }
